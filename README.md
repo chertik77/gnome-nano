@@ -18,10 +18,21 @@ Or if sh is not available:
    ./setup.sh
    ```
 
+## Customization
+
+After running the script, you can manually edit your configuration file:
+
+```bash
+nano ~/.nanorc
+```
+
+You can add more syntax files from your cloned `~/.nano/nanorc/` directory or tweak appearance settings.
+
 ## What it does
+
 The included `setup.sh` script will:
 
 1. Remove any existing Nano configuration (not needed for lab exams)
-2. Create a shell alias n → nano (added to your ~/.bashrc)
+2. Create a shell alias n → nano (added to your `~/.bashrc`)
 3. Clone a syntax highlighting repository
-4. Create a new ~/.nanorc with custom settings
+4. Create a new `~/.nanorc` with custom settings
