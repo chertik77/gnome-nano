@@ -1,14 +1,12 @@
 rm -rf ~/.nanorc
 rm -rf ~/.nano
 
-git clone https://github.com/scopatz/nanorc.git "~/.nano/nanorc"
+git clone https://github.com/scopatz/nanorc.git ~/.nano/nanorc
 
-echo "
-set linenumbers
+echo "set linenumbers
 set autoindent
 set zero
 set tabsize 2
-set tabtospaces
 set softwrap
 set saveonexit
 set numbercolor magenta
