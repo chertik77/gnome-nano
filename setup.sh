@@ -12,6 +12,6 @@ set saveonexit
 set numbercolor magenta
 set titlecolor white
 
-include '~/.nano/nanorc/python.nanorc'
-include '~/.nano/nanorc/sh.nanorc'
+include ~/.nano/nanorc/python.nanorc
+include ~/.nano/nanorc/sh.nanorc
 " >> ~/.nanorc
