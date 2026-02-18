@@ -1,7 +1,7 @@
 rm -rf ~/.nanorc
 rm -rf ~/.nano
 
-wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
+git clone https://github.com/scopatz/nanorc.git "~/.nano/nanorc/"
 
 echo "
 set linenumbers
