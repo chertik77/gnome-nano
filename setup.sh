@@ -1,7 +1,7 @@
 rm -rf ~/.nanorc
 rm -rf ~/.nano
 
-git clone https://github.com/scopatz/nanorc.git "~/.nano/nanorc/"
+git clone https://github.com/scopatz/nanorc.git "~/.nano/nanorc"
 
 echo "
 set linenumbers
