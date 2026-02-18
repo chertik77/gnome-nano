@@ -1,6 +1,8 @@
 rm -rf ~/.nanorc
 rm -rf ~/.nano
 
+echo "alias n=nano" >> ~/.bashrc
+
 git clone https://github.com/scopatz/nanorc.git ~/.nano/nanorc
 
 echo "set linenumbers
