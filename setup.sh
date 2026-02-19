@@ -8,12 +8,12 @@ git clone https://github.com/galenguyer/nano-syntax-highlighting.git ~/.nano/nan
 echo "set linenumbers
 set autoindent
 set zero
+set mouse
 set tabsize 2
 set softwrap
 set saveonexit
 set numbercolor magenta
 set titlecolor white
 
-include ~/.nano/nanorc/python.nanorc
-include ~/.nano/nanorc/sh.nanorc
+include ~/.nano/nanorc/*.nanorc
 " >> ~/.nanorc
