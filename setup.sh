@@ -1,7 +1,9 @@
 rm -rf ~/.nanorc
 rm -rf ~/.nano
 
-echo "alias n=nano" >> ~/.bashrc
+if ! grep -q "alias n=nano" ~/.bashrc; then
+  echo 'alias n=nano' >> ~/.bashrc
+fi
 
 git clone https://github.com/galenguyer/nano-syntax-highlighting.git ~/.nano/nanorc
 
