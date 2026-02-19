@@ -3,7 +3,7 @@ rm -rf ~/.nano
 
 echo "alias n=nano" >> ~/.bashrc
 
-git clone https://github.com/scopatz/nanorc.git ~/.nano/nanorc
+git clone https://github.com/galenguyer/nano-syntax-highlighting.git ~/.nano/nanorc
 
 echo "set linenumbers
 set autoindent
