@@ -1,8 +1,6 @@
-# Nano Configuration Setup
+# Gnome Terminal & Nano Configuration Setup
 
-This repository contains a simple setup script to configure GNU nano with custom settings and syntax highlighting.
-
-The goal is to quickly set up **nano** with useful defaults and syntax definitions cloned from a third-party source.
+This repository contains a simple setup script to configure Gnome Terminal and GNU nano with custom settings and syntax highlighting.
 
 ## Usage
 Clone this repository & run the setup script:
@@ -25,14 +23,3 @@ After running the script, you can manually edit your configuration file:
 ```bash
 nano ~/.nanorc
 ```
-
-You can add more syntax files from your cloned `~/.nano/nanorc/` directory or tweak appearance settings.
-
-## What it does
-
-The included `setup.sh` script will:
-
-1. Remove any existing Nano configuration (not needed for lab exams)
-2. Create a shell alias n → nano (added to your `~/.bashrc`)
-3. Clone a syntax highlighting repository
-4. Create a new `~/.nanorc` with custom settings
